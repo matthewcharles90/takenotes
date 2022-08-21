@@ -11,3 +11,109 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-mode {
+  background-color: #585a6b;
+}
+
+.dark-mode h1 {
+  color: whitesmoke;
+}
+
+/* Keep notepads in the center of website */
+.container {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 100vh;
+}
+
+.note {
+  background-color: #E6BA95;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+}
+
+.notes-list {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.note.new {
+  background-color: #5275d4;
+}
+.note.new ::placeholder {
+  color: #ffffff;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  color: aliceblue;
+  background-color: #5275d4;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.save {
+  background-color: #a78118;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+
+.save:hover {
+  color: azure;
+  background-color: #188d53;
+  cursor: pointer;
+}
+
+.note-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-icon {
+  cursor: pointer;
+}
+
+.delete-icon:hover {
+  background-color: #cf0606;
+  color: aliceblue;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #ccc3bc;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1.5em;
+}
+
+.search input {
+  border: none;
+  background-color: #ccc3bc;
+}
+
+.search input:focus {
+  outline: none;
+}
+
