@@ -5,6 +5,8 @@ React Note Taking App.
 Enter a reminder, goal, or task and hit the save button in order to complete the note.
 You may also use the delte icon to delete the note.
 
+FInd the code by clicking 'src' folder.
+
 
 
 
