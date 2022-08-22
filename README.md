@@ -5,7 +5,9 @@ React Note Taking App.
 Enter a reminder, goal, or task and hit the save button in order to complete the note.
 You may also use the delte icon to delete the note.
 
-FInd the code by clicking 'src' folder.
+Also expereince Dark Mode, click on the Toggle Mode for Dark Mode.
+
+Find the code by clicking 'src' folder.
 
 
 
