@@ -1,3 +1,27 @@
+https://matthewcharles90.github.io/takenotes/
+
+React Note Taking App.
+
+Enter a reminder, goal, or task and hit the save button in order to complete the note.
+You may also use the delte icon to delete the note.
+
+Also expereince Dark Mode, click on the Toggle Mode for Dark Mode.
+
+Find the code by clicking 'src' folder.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
