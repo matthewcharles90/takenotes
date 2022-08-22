@@ -8,22 +8,22 @@ function App() {
   const [notes, setNotes] = useState([
     {
     id: nanoid(),
-    text: "This is it 1",
+    text: "Example 1",
     date: "08/18/20",
   },
     {
     id: nanoid(),
-    text: "This is it 2",
+    text: "Example 2",
     date: "08/18/20",
   },
     {
     id: nanoid(),
-    text: "This is it 3",
+    text: "Exampe 3",
     date: "08/18/20",
   },
     {
     id: nanoid(),
-    text: "This is it four",
+    text: "Type in the blue box then press save       ------> ",
     date: "08/18/20",
   },
 ]);
